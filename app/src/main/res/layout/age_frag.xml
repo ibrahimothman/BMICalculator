@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_selector">
+
+
+    <ImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/ic_bmi_icon" />
+
+    <EditText
+        android:id="@+id/age_label"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:drawableEnd="@drawable/ic_edit"
+        android:drawableRight="@drawable/ic_edit"
+        android:gravity="center"
+        android:layout_below="@+id/logo_icon"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/radio_gender"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:divider="@drawable/ic_devider_line"
+        android:showDividers="middle"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/redio_male"
+        android:button="@drawable/radio_male"/>
+
+        <RadioButton
+            android:id="@+id/redio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radio_female" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose your sex"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/age_label"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Age"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>

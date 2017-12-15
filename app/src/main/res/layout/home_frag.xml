@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_home"
+    android:background="@color/white_87"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@drawable/text_block"
+           android:layout_margin="10dp">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_bmi_icon"
+               android:layout_centerHorizontal="true"
+                />
+       </RelativeLayout>
+
+           <TextView
+               android:id="@+id/bmi_result"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="3dp"
+               android:text="25.1"
+               android:textColor="@android:color/holo_orange_light"
+               android:textSize="60sp" />
+
+           <TextView
+               android:id="@+id/user_info"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_gravity="center"
+               android:layout_marginBottom="15dp"
+               android:layout_marginTop="5dp"
+               android:background="@drawable/text_border"
+               android:gravity="center"
+               android:text="2 Yr | 75.0 Kg | 173 Cm"
+               android:textSize="16sp" />
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/text_block"
+            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BMI Result"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_expressions_yellow"
+                android:id="@+id/expression_icon"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bmi_summary"
+                android:textSize="24sp"
+                android:text="Your BMI is Overweight"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Normal Weight"
+            android:background="@drawable/text_style"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="55 Kg - 100 Kg"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@drawable/card_style"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/noraml_weight_txt"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
