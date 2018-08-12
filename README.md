@@ -2,6 +2,7 @@
 Android App to calulate your BMI
 
 * You can enter your weight and length to get your BMI
+* You also can get more about how to be fit
 
 
 # ScreenShots
