@@ -1,6 +1,9 @@
 # BMICalculator
 Android App to calulate your BMI
 
+* You can enter your weight and length to get your BMI
+
+
 # ScreenShots
 <p float="left">
 <img width=400 height=680 src="https://user-images.githubusercontent.com/26088754/43352495-c320ff80-9224-11e8-89ac-fc524e636274.png">
